@@ -42,11 +42,11 @@ header {
   height: 100px;
   margin: 0 auto;
 
-  background-color: rgb(67, 116, 241);
+  background-color: rgb(52, 98, 179); /* OR rgb(33, 124, 126) - TBD*/
 }
 
 .down-arrow {
-  background: url("assets/img/down-arrow.png");
+  background: url("assets/img/down-arrow-white.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

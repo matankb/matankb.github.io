@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
+
 .top {
   position: fixed;
   top: 0;
@@ -14,6 +15,7 @@ body {
   text-align: center;
   background-image: url("/assets/img/background-header.jpg");
 }
+
 header {
   margin-top: 10%;
 }

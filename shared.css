@@ -42,7 +42,7 @@ header {
   height: 100px;
   margin: 0 auto;
 
-  background-color: rgb(52, 98, 179); /* OR rgb(33, 124, 126) - TBD*/
+  background-color: rgb(52, 98, 179);
 }
 
 .down-arrow {

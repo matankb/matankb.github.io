@@ -61,3 +61,8 @@ main {
   width: 100%;
   top: 84.5%;
 }
+
+main section.section{
+  padding: 10px;
+  
+}

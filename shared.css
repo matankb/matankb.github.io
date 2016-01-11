@@ -20,21 +20,9 @@ header {
   margin-top: 10%;
 }
 
-.title {
-  margin: 0;
-  font-size: 5em;
-  font-weight: 400;
-}
-
 .top .divider {
   width: 40%;
   border: 1px solid gray;
-}
-
-.subtitle {
-  font-weight: 400;
-  font-size: 2em;
-  margin: 0;
 }
 
 .down-arrow-wrap {
@@ -64,5 +52,6 @@ main {
 
 main section.section{
   padding: 10px;
-  
+  text-align: center;
+
 }

@@ -14,6 +14,6 @@
   margin: 0;
 }
 
-.background-lightblue {
-  background-color: rgba(214, 232, 250, 1);
-}
+/* Background Colors */
+.background-lightblue { background-color: #d6e8fa }
+.background-white { background-color: #fff }

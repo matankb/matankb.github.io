@@ -4,6 +4,10 @@
   font-weight: 400;
 }
 
+.divider { border: 1px solid gray; }
+.divider-full { width: 90%; }
+.divider-half { width: 40%; }
+
 .title-medium {
   font-weight: 400;
   font-size: 2em;

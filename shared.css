@@ -17,14 +17,21 @@ body {
 }
 
 header {
-  margin-top: 10%;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
 }
 
+
 .down-arrow-wrap {
+  position: absolute;
+  left: 50%;
+  margin-left: -100px !important;
   width: 200px;
   height: 100px;
   margin: 0 auto;
-
+  bottom: 0;
   background-color: rgb(52, 98, 179);
 }
 
@@ -35,14 +42,15 @@ header {
   background-position: center;
   width: 50px;
   height: 100px;
-  margin: inherit;
+  margin: 0 auto;
 }
 
 main {
   position: absolute;
   background: transparent;
   width: 100%;
-  top: 84.5%;
+  top: 100%;
+  left: 0;
 }
 
 main section.section {

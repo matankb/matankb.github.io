@@ -3,13 +3,12 @@
 
 .title-large {
   margin: 0;
-  font-size: 3em;
-  font-weight: 400;
+  font-weight: 300;
+  display: inline-block;
 }
 
 .title-medium {
-  font-weight: 400;
-  font-size: 2em;
+  font-weight: 300;
   margin: 0;
 }
 

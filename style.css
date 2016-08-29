@@ -1,0 +1,41 @@
+body {
+  background-color: #2C3643;
+  color: white;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 12%;
+}
+
+.code {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 16px;
+}
+
+.line {
+  padding-left: 20px;
+  display: block;
+}
+
+.string {
+  color: #16c98d;
+}
+
+.key {
+  color: white;
+}
+
+.keyword {
+  color: #ff708e;
+}
+
+.link {
+  text-decoration: none;
+  color: #7f7fff; /* Or #8abee5 - TBD */
+}
+
+.link:hover {
+  text-decoration: underline;
+}

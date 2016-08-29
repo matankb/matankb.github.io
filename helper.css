@@ -16,7 +16,7 @@
 .background-lightblue { background-color: #d6e8fa }
 .background-white { background-color: #fff }
 @media only screen and (max-device-width: 480px) {
-	.title-large { font-size: 200px; }
+	.title-large { font-size: 100px; }
   .title-medium { font-size: 100px; }
   .divider { border: 4px solid gray; }
 }

@@ -60,3 +60,15 @@ particlesJS("header", {
   },
   retina_detect: true
 });
+
+function toggelMobileMenu() {
+  document.getElementById('mobile-menu').classList.toggle('mobile-menu-active');
+}
+
+document.getElementById('mobile-menu-button').addEventListener('click', () => {
+  toggelMobileMenu();
+});
+
+document.getElementById('mobile-menu-backdrop').addEventListener('click', () => {
+  toggelMobileMenu();
+})

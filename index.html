@@ -12,9 +12,10 @@
 
 <body>
   <nav>
-    <ul>
+    <ul id="nav-primary">
       <li id="name">Matan Kotler-Berkowitz</li>
-      <li><a href="/assets/resume.pdf" target="_blank">Resume</a></li>
+      <li id="resume"><a href="/assets/resume.pdf" target="_blank">Resume</a></li>
+      <i id="mobile-menu-button" class="fas fa-bars"></i>
     </ul>
     <ul id="contact">
       <li>
@@ -36,6 +37,29 @@
         </a>
       </li>
     </ul>
+    <ul id="mobile-menu">
+      <li><a href="/assets/resume.pdf" target="_blank">Resume</a></li>
+      <hr />
+      <li>
+        <a href="mailto:mkotlerb@u.rochester.edu" target="_blank" rel="nofollow noopener">
+          <i class="far fa-envelope"></i>
+          <span class="contact-text">Email</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/matankb" target="_blank" rel="nofollow noopener">
+          <i class="fab fa-github"></i>
+          <span class="contact-text">GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/matankb/" target="_blank" rel="nofollow,noopener">
+          <i class="fab fa-linkedin"></i>
+          <span class="contact-text">LinkedIn</span>
+        </a>
+      </li>
+    </ul>
+    <div id="mobile-menu-backdrop"></div>
   </nav>
 
   <header id="header">
